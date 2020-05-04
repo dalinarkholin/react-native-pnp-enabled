@@ -1,0 +1,39 @@
+{
+  "name": "fangrub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "James Guthrie and George Harwood",
+  "license": "UNLICENCED",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/packages/seller-native/**"
+    ]
+  },
+  "dependencies": {
+    "expo-cli": "3.20.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.x",
+    "eslint": "6.x",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "3.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x",
+    "prettier": "^1.19.1"
+  },
+  "dependenciesMeta": {
+    "expo": {
+      "unplugged": true
+    }
+  }
+}

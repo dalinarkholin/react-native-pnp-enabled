@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react-hooks"
+  ],
+  "ignorePatterns": [
+    "cloudServices/",
+    "cypress/"
+  ],
+  "rules": {
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "jsx-a11y/alt-text": "off"
+  }
+}
