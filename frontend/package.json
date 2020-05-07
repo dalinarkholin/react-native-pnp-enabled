@@ -5,6 +5,9 @@
   "author": "James Guthrie and George Harwood",
   "license": "UNLICENCED",
   "private": true,
+  "scripts": {
+    "packages:clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
@@ -19,7 +22,9 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.x",
     "@typescript-eslint/parser": "2.x",
+    "@yarnpkg/pnpify": "^2.0.0-rc.22",
     "babel-eslint": "10.x",
+    "crypto": "link:./packages/crypto-patch",
     "eslint": "6.x",
     "eslint-config-prettier": "^6.10.0",
     "eslint-config-react-app": "^5.2.0",
@@ -29,10 +34,35 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.x",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "typescript": "~3.8.3"
   },
   "dependenciesMeta": {
+    "@react-native-community/cli": {
+      "unplugged": true
+    },
+    "@react-native-community/cli-platform-ios": {
+      "unplugged": true
+    },
     "expo": {
+      "unplugged": true
+    },
+    "expo-cli": {
+      "unplugged": true
+    },
+    "jest-haste-map": {
+      "unplugged": true
+    },
+    "metro": {
+      "unplugged": true
+    },
+    "pbkdf2": {
+      "unplugged": true
+    },
+    "react-native": {
+      "unplugged": true
+    },
+    "react-native-unimodules": {
       "unplugged": true
     }
   }

@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fangrub"
+    },
+    "android": {
+      "package": "com.fangrub"
+    },
+    "entryPoint": "./App.tsx"
   }
 }

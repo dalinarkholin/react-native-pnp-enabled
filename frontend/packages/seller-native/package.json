@@ -1,29 +1,43 @@
 {
-  "name": "@fangrub/seller-native",
-  "version": "1.0.0",
-  "author": "George Harwood and James Guthrie",
-  "license": "UNLICENCED",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "podinstall": "cd ios && pod install",
+    "podd": "cd ios && pod deintegrate",
+    "rn:upgrade": "react-native upgrade"
   },
   "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
     "expo": "~37.0.3",
+    "expo-cli": "^3.20.1",
+    "expo-updates": "~0.1.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native": "^0.62.2",
+    "react-native-crypto": "latest",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-randombytes": "latest",
+    "react-native-reanimated": "~1.7.0",
     "react-native-screens": "~2.2.0",
-    "react-native-web": "~0.11.7"
+    "react-native-unimodules": "^0.9.0",
+    "react-native-web": "~0.11.7",
+    "url-parse": "^1.4.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
+    "@babel/core": "^7.9.6",
     "@types/react": "~16.9.23",
     "@types/react-native": "~0.61.17",
+    "babel-jest": "~25.2.6",
     "babel-preset-expo": "~8.1.0",
+    "jest": "~25.2.6",
+    "react-test-renderer": "~16.9.0",
     "typescript": "~3.8.3"
-  }
+  },
+  "react-native": {
+    "process": "react-native-process-shim"
+  },
+  "private": true
 }
