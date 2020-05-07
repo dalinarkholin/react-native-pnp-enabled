@@ -7,13 +7,15 @@
 	<key>CFBundleDisplayName</key>
 	<string>seller-native</string>
 	<key>CFBundleExecutable</key>
-	<string>fangrub</string>
+	<string>sellernative</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.fangrub</string>
+	<string>com.sellernative</string>
+	<key>:CFBundleIdentifier</key>
+	<string>com.sellernative</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>fangrub</string>
+	<string>sellernative</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

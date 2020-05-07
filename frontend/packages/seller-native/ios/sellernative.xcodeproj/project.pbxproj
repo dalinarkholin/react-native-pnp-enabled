@@ -22,7 +22,7 @@
 		07C2E6E3243282B30028AF0A /* app.manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.manifest; path = sellernative/Supporting/app.manifest; sourceTree = "<group>"; };
 		07C2E6E4243282B30028AF0A /* app.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.bundle; path = sellernative/Supporting/app.bundle; sourceTree = "<group>"; };
 		08DC15BD9882FC072EC09B17 /* libPods-sellernative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sellernative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* fangrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fangrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* sellernative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sellernative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sellernative/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = sellernative/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* fangrub.app */,
+				13B07F961A680F5B00A75B9A /* sellernative.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			);
 			name = sellernative;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* fangrub.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* sellernative.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -269,8 +269,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fangrub;
-				PRODUCT_NAME = fangrub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellernative;
+				PRODUCT_NAME = sellernative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -291,8 +291,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fangrub;
-				PRODUCT_NAME = fangrub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellernative;
+				PRODUCT_NAME = sellernative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -348,8 +348,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fangrub;
-				PRODUCT_NAME = fangrub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellernative;
+				PRODUCT_NAME = sellernative;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -397,8 +397,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fangrub;
-				PRODUCT_NAME = fangrub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellernative;
+				PRODUCT_NAME = sellernative;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
