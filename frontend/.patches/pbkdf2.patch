@@ -1,0 +1,20 @@
+diff --git a/lib/default-encoding.js b/lib/default-encoding.js
+index 13b8db9..b157685 100644
+--- a/lib/default-encoding.js
++++ b/lib/default-encoding.js
+@@ -3,8 +3,13 @@ var defaultEncoding
+ if (process.browser) {
+   defaultEncoding = 'utf-8'
+ } else {
+-  var pVersionMajor = parseInt(process.version.split('.')[0].slice(1), 10)
++  // Dalinar Added
++  if (process.version) {
++    var pVersionMajor = parseInt(process.version.split('.')[0].slice(1), 10)
+ 
+-  defaultEncoding = pVersionMajor >= 6 ? 'utf-8' : 'binary'
++    defaultEncoding = pVersionMajor >= 6 ? 'utf-8' : 'binary'
++  } else {
++    defaultEncoding = 'utf-8'
++  }
+ }
+ module.exports = defaultEncoding

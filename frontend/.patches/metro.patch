@@ -1,0 +1,23 @@
+diff --git a/src/node-haste/DependencyGraph.js b/src/node-haste/DependencyGraph.js
+index 71d8d77..243fae3 100644
+--- a/src/node-haste/DependencyGraph.js
++++ b/src/node-haste/DependencyGraph.js
+@@ -259,10 +259,15 @@ class DependencyGraph extends EventEmitter {
+ 
+     const sha1 = this._hasteFS.getSha1(resolvedPath);
+ 
++    // Dalinar Added
+     if (!sha1) {
+-      throw new ReferenceError(
+-        `SHA-1 for file ${filename} (${resolvedPath}) is not computed`
+-      );
++      return getFileHash(resolvedPath)
++      function getFileHash(file) {
++        return require('crypto')
++          .createHash('sha1')
++          .update(fs.readFileSync(file))
++          .digest('hex')
++      }
+     }
+ 
+     return sha1;
