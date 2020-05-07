@@ -1,0 +1,11 @@
+{
+  "name": "crypto-patch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dalinar Kholin",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "react-native-crypto": "latest",
+    "react-native-randombytes": "latest"
+  }
+}

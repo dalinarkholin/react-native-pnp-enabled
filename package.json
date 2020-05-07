@@ -1,0 +1,66 @@
+{
+  "name": "react-native-pnp-enabled",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dalinar Kholin",
+  "license": "UNLICENCED",
+  "private": true,
+  "scripts": {
+    "packages:clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {
+    "expo-cli": "3.20.1",
+    "metro": "patch:metro@0.58.0#./.patches/metro.patch",
+    "pbkdf2": "patch:pbkdf2@3.0.17#./.patches/pbkdf2.patch"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "@yarnpkg/pnpify": "^2.0.0-rc.22",
+    "babel-eslint": "10.x",
+    "crypto": "link:./packages/crypto-patch",
+    "eslint": "6.x",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "3.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x",
+    "prettier": "^1.19.1",
+    "typescript": "~3.8.3"
+  },
+  "resolutions": {
+    "metro": "patch:metro@0.58.0#./.patches/metro.patch",
+    "pbkdf2": "patch:pbkdf2@3.0.17#./.patches/pbkdf2.patch"
+  },
+  "dependenciesMeta": {
+    "@react-native-community/cli": {
+      "unplugged": true
+    },
+    "@react-native-community/cli-platform-ios": {
+      "unplugged": true
+    },
+    "expo": {
+      "unplugged": true
+    },
+    "expo-cli": {
+      "unplugged": true
+    },
+    "jest-haste-map": {
+      "unplugged": true
+    },
+    "react-native": {
+      "unplugged": true
+    },
+    "react-native-unimodules": {
+      "unplugged": true
+    }
+  }
+}
