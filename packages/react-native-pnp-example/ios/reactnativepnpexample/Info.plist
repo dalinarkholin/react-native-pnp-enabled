@@ -7,15 +7,15 @@
 	<key>CFBundleDisplayName</key>
 	<string>react-native-pnp-example</string>
 	<key>CFBundleExecutable</key>
-	<string>reactnativepnpenabled</string>
+	<string>reactnativepnpexample</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.reactnativepnpenabled</string>
+	<string>com.reactnativepnpexample</string>
 	<key>:CFBundleIdentifier</key>
-	<string>com.reactnativepnpenabled</string>
+	<string>com.reactnativepnpexample</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>reactnativepnpenabled</string>
+	<string>reactnativepnpexample</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

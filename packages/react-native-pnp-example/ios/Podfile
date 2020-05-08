@@ -3,8 +3,8 @@ platform :ios, '10.0'
 require_relative '../../../.yarn/unplugged/react-native-unimodules-npm-0.9.0-3ad935d12f/node_modules/react-native-unimodules/cocoapods'
 require_relative '../../../.yarn/unplugged/@react-native-community-cli-platform-ios-npm-4.8.0-44543748c6/node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'reactnativepnpenabled' do
-  rnPrefix = "../../../.yarn/unplugged/react-native-virtual-acd98078db/node_modules/react-native"
+target 'reactnativepnpexample' do
+  rnPrefix = "../../../.yarn/unplugged/react-native-virtual-b19e2898d4/node_modules/react-native"
 
   # React Native and its dependencies
   pod 'FBLazyVector', :path => "#{rnPrefix}/Libraries/FBLazyVector"

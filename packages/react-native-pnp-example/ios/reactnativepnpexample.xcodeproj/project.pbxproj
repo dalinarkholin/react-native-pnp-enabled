@@ -14,24 +14,24 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		C8E784CE98F46D32D3093442 /* libPods-reactnativepnpenabled.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DC15BD9882FC072EC09B17 /* libPods-reactnativepnpenabled.a */; };
+		C6C1EC0DBAB066DB879BCA01 /* libPods-reactnativepnpexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3FB559FB87C94B6061A716 /* libPods-reactnativepnpexample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0731D3B524204D62009CAE85 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Expo.plist; path = reactnativepnpenabled/Supporting/Expo.plist; sourceTree = "<group>"; };
-		07C2E6E3243282B30028AF0A /* app.manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.manifest; path = reactnativepnpenabled/Supporting/app.manifest; sourceTree = "<group>"; };
-		07C2E6E4243282B30028AF0A /* app.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.bundle; path = reactnativepnpenabled/Supporting/app.bundle; sourceTree = "<group>"; };
-		08DC15BD9882FC072EC09B17 /* libPods-reactnativepnpenabled.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativepnpenabled.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* reactnativepnpenabled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactnativepnpenabled.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactnativepnpenabled/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactnativepnpenabled/AppDelegate.m; sourceTree = "<group>"; };
+		0731D3B524204D62009CAE85 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Expo.plist; path = reactnativepnpexample/Supporting/Expo.plist; sourceTree = "<group>"; };
+		07C2E6E3243282B30028AF0A /* app.manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.manifest; path = reactnativepnpexample/Supporting/app.manifest; sourceTree = "<group>"; };
+		07C2E6E4243282B30028AF0A /* app.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = app.bundle; path = reactnativepnpexample/Supporting/app.bundle; sourceTree = "<group>"; };
+		0EEEDA42165654472B7317D7 /* Pods-reactnativepnpexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativepnpexample.debug.xcconfig"; path = "Target Support Files/Pods-reactnativepnpexample/Pods-reactnativepnpexample.debug.xcconfig"; sourceTree = "<group>"; };
+		1248F590388FE2584F5078DD /* Pods-reactnativepnpexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativepnpexample.release.xcconfig"; path = "Target Support Files/Pods-reactnativepnpexample/Pods-reactnativepnpexample.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* reactnativepnpexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactnativepnpexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactnativepnpexample/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactnativepnpexample/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactnativepnpenabled/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativepnpenabled/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactnativepnpenabled/main.m; sourceTree = "<group>"; };
-		1EA3D7912C182B2D601A29E9 /* Pods-reactnativepnpenabled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativepnpenabled.release.xcconfig"; path = "Target Support Files/Pods-reactnativepnpenabled/Pods-reactnativepnpenabled.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactnativepnpexample/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativepnpexample/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactnativepnpexample/main.m; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9558974B5837157144FB0329 /* Pods-reactnativepnpenabled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativepnpenabled.debug.xcconfig"; path = "Target Support Files/Pods-reactnativepnpenabled/Pods-reactnativepnpenabled.debug.xcconfig"; sourceTree = "<group>"; };
+		CC3FB559FB87C94B6061A716 /* libPods-reactnativepnpexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativepnpexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -41,14 +41,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8E784CE98F46D32D3093442 /* libPods-reactnativepnpenabled.a in Frameworks */,
+				C6C1EC0DBAB066DB879BCA01 /* libPods-reactnativepnpexample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* reactnativepnpenabled */ = {
+		13B07FAE1A68108700A75B9A /* reactnativepnpexample */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -61,7 +61,7 @@
 				07C2E6E4243282B30028AF0A /* app.bundle */,
 				07C2E6E3243282B30028AF0A /* app.manifest */,
 			);
-			name = reactnativepnpenabled;
+			name = reactnativepnpexample;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -70,7 +70,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				08DC15BD9882FC072EC09B17 /* libPods-reactnativepnpenabled.a */,
+				CC3FB559FB87C94B6061A716 /* libPods-reactnativepnpexample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,8 +78,8 @@
 		72E5486571395D51695C2A02 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9558974B5837157144FB0329 /* Pods-reactnativepnpenabled.debug.xcconfig */,
-				1EA3D7912C182B2D601A29E9 /* Pods-reactnativepnpenabled.release.xcconfig */,
+				0EEEDA42165654472B7317D7 /* Pods-reactnativepnpexample.debug.xcconfig */,
+				1248F590388FE2584F5078DD /* Pods-reactnativepnpexample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* reactnativepnpenabled */,
+				13B07FAE1A68108700A75B9A /* reactnativepnpexample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -108,7 +108,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* reactnativepnpenabled.app */,
+				13B07F961A680F5B00A75B9A /* reactnativepnpexample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,11 +116,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* reactnativepnpenabled */ = {
+		13B07F861A680F5B00A75B9A /* reactnativepnpexample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativepnpenabled" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativepnpexample" */;
 			buildPhases = (
-				8B74009C646E1CB4DBF6F760 /* [CP] Check Pods Manifest.lock */,
+				5F6F0901AB959E7BB21DDC99 /* [CP] Check Pods Manifest.lock */,
 				FD4C38642228810C00325AF5 /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = reactnativepnpenabled;
+			name = reactnativepnpexample;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* reactnativepnpenabled.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* reactnativepnpexample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativepnpenabled" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativepnpexample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* reactnativepnpenabled */,
+				13B07F861A680F5B00A75B9A /* reactnativepnpexample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,7 +184,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8B74009C646E1CB4DBF6F760 /* [CP] Check Pods Manifest.lock */ = {
+		5F6F0901AB959E7BB21DDC99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,7 +199,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactnativepnpenabled-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactnativepnpexample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -246,7 +246,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = reactnativepnpenabled;
+			path = reactnativepnpexample;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -254,14 +254,14 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9558974B5837157144FB0329 /* Pods-reactnativepnpenabled.debug.xcconfig */;
+			baseConfigurationReference = 0EEEDA42165654472B7317D7 /* Pods-reactnativepnpexample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = reactnativepnpenabled/com.entitlements;
+				CODE_SIGN_ENTITLEMENTS = reactnativepnpexample/com.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 58GZ363WU2;
-				INFOPLIST_FILE = reactnativepnpenabled/Info.plist;
+				INFOPLIST_FILE = reactnativepnpexample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -269,21 +269,21 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativepnpenabled;
-				PRODUCT_NAME = reactnativepnpenabled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativepnpexample;
+				PRODUCT_NAME = reactnativepnpexample;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EA3D7912C182B2D601A29E9 /* Pods-reactnativepnpenabled.release.xcconfig */;
+			baseConfigurationReference = 1248F590388FE2584F5078DD /* Pods-reactnativepnpexample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = reactnativepnpenabled/com.entitlements;
+				CODE_SIGN_ENTITLEMENTS = reactnativepnpexample/com.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 58GZ363WU2;
-				INFOPLIST_FILE = reactnativepnpenabled/Info.plist;
+				INFOPLIST_FILE = reactnativepnpexample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -291,8 +291,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativepnpenabled;
-				PRODUCT_NAME = reactnativepnpenabled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativepnpexample;
+				PRODUCT_NAME = reactnativepnpexample;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -325,7 +325,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = reactnativepnpenabled/com.entitlements;
+				CODE_SIGN_ENTITLEMENTS = reactnativepnpexample/com.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -348,8 +348,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativepnpenabled;
-				PRODUCT_NAME = reactnativepnpenabled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativepnpexample;
+				PRODUCT_NAME = reactnativepnpexample;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -382,7 +382,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = reactnativepnpenabled/com.entitlements;
+				CODE_SIGN_ENTITLEMENTS = reactnativepnpexample/com.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -397,8 +397,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativepnpenabled;
-				PRODUCT_NAME = reactnativepnpenabled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativepnpexample;
+				PRODUCT_NAME = reactnativepnpexample;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -407,7 +407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativepnpenabled" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativepnpexample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativepnpenabled" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativepnpexample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
