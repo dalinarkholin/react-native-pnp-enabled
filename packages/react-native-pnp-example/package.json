@@ -12,6 +12,7 @@
   "dependencies": {
     "@babel/core": "^7.9.6",
     "@babel/runtime": "^7.9.6",
+    "@react-native-pnp-enabled/ui": "workspace:*",
     "expo": "~37.0.3",
     "expo-cli": "^3.20.1",
     "expo-updates": "~0.1.0",
