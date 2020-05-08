@@ -5,8 +5,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "podinstall": "cd ios && pod install",
-    "podd": "cd ios && pod deintegrate",
+    "pod:install": "cd ios && pod install",
+    "pod:deintegrate": "cd ios && pod deintegrate",
     "rn:upgrade": "react-native upgrade"
   },
   "dependencies": {
